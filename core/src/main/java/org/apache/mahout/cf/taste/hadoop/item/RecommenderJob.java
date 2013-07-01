@@ -82,6 +82,7 @@ import java.util.regex.Pattern;
  *   the item similarity computation phase,
  * users with more preferences will be sampled down (1000)</li>
  * <li>--threshold (double): discard item pairs with a similarity value below this</li>
+ * <li>--outputPathForSimilarityMatrix (path): write the item similarity matrix to this path (optional)</li>
  * </ol>
  * <p/>
  * <p>General command line options are documented in {@link AbstractJob}.</p>
